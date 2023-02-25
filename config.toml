@@ -1,4 +1,4 @@
-baseURL = 'http://putterv.com/'
+baseURL = 'https://putterv.com/'
 languageCode = 'en-us'
 title = 'Putter V.'
 theme = 'hugo-split-theme'
