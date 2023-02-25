@@ -1,0 +1,57 @@
+baseURL = 'http://putterv.com/'
+languageCode = 'en-us'
+title = 'Putter V.'
+theme = 'hugo-split-theme'
+
+# Copyright
+copyright = "&copy;<script>document.write(new Date().getFullYear())</script> Putter V."
+
+[params]
+# Metadata for search engines and social sharing
+author = "Putter Vong"
+description = "PutterV's Personal Website"
+# Favicon
+favicon = "favicon.ico"
+
+# Section - Visual
+[params.visual]
+
+# Image
+[params.visual.image]
+enable = true
+file = "images/portrait.jpg"
+position = "center center"
+
+# Links
+  #
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Connect"
+
+      [[params.links.list1.link]]
+        text = "Blog"
+        url = "https://blog.putterv.com"
+        new_tab = true # new tab
+
+      [[params.links.list1.link]]
+        text = "Email"
+        url = "mailto:me@putterv.com"
+        new_tab = false # Default, open at same tab
+
+  # Links List #2
+  [[params.links]]
+    [params.links.list2]
+      heading = "Social"
+
+      [[params.links.list2.link]]
+        text = "Linkedin"
+        url = "https://linkedin.com/in/putterv"
+
+      [[params.links.list2.link]]
+        text = "Instagram"
+        url = "https://instagram.com/putter_27"
+
+
+[params.custom.css]
+enable = true
