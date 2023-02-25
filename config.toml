@@ -11,7 +11,7 @@ copyright = "&copy;<script>document.write(new Date().getFullYear())</script> Put
 author = "Putter Vong"
 description = "PutterV's Personal Website"
 # Favicon
-favicon = "favicon.ico"
+favicon = "https://putterv.com/favicon.ico"
 
 # Section - Visual
 [params.visual]
@@ -19,7 +19,7 @@ favicon = "favicon.ico"
 # Image
 [params.visual.image]
 enable = true
-file = "images/portrait.jpg"
+file = "https://putterv.com/images/portrait.jpg"
 position = "center center"
 
 # Links
